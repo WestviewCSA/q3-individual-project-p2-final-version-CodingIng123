@@ -1,3 +1,26 @@
 Questions:
 
 Write as many questions as you can based on the project specs.
+
+1. [C] can i get assistance from friends (Hansol) even 
+   though the project is individual?
+   
+2. [O] is this project able to be finished fully with only 
+   with the class time given or is there a high chance that 
+   i will have to work at home? 
+
+3. [C] is there a minimum size for the maze or can it be any 
+   size?
+   
+4. [C] is there extra credit?
+
+5. [C] how will these questions be used?
+
+6. [C] what if I don't have enough questions?
+
+7. [C] how many commits do i need for full points
+
+8. [C] how do I get the 5 points for "design plan"?
+
+9. [C] will we be required to use specific data structures
+   in this assignment?
