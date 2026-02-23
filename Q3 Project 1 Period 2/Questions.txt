@@ -21,7 +21,7 @@ Write as many questions as you can based on the project specs.
 7. [C] how many commits do i need for full points
 
 8. [C] how do I get the 5 points for "design plan"?
-
+																														
 9. [C] will we be required to use specific data structures
    in this assignment?
    
