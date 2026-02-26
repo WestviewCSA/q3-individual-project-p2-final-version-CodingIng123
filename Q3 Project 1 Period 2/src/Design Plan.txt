@@ -1,0 +1,11 @@
+
+-----------------
+|  Design Plan  |
+-----------------
+
+The Main Goal is to succesfully use Queues to find a path through the given map.
+
+ - First, I will use 2d arrays and a scanner to get all of objects on the map (path, obstacle, prize, etc) and 
+   assign them to their corresponding coordinate. (This was completed. yay)
+ - Second, I will implement the Queue and test it out with a map that has all empty space.
+ - Third, I will modify the Queue method to work with obstacles (anything that is not a pathway or the prize)
