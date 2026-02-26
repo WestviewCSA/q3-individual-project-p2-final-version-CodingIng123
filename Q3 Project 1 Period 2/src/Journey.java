@@ -2,6 +2,8 @@
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Journey {
@@ -26,11 +28,21 @@ public class Journey {
 				for (int j = 0; j < values[0].length; j++) { 
 					values[i][j] = word.substring(j,j+1);
 					System.out.print(values[i][j]);
-					
 				}
 				System.out.println();
 
 			}
+			
+			Queue<Integer> rows = new LinkedList<Integer>();
+			Queue<Integer> columns = new LinkedList<Integer>();
+			Queue<String> value = new LinkedList<String>();
+			Queue<Integer> traveledRows = new LinkedList<Integer>();
+			Queue<Integer> traveledColumns = new LinkedList<Integer>();
+			Queue<String> traveledValues = new LinkedList<String>();
+			
+			
+		
+			
 		
 		
 				
