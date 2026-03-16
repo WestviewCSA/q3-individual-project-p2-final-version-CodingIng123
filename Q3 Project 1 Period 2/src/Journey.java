@@ -7,7 +7,11 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class Journey {
-	
+		
+		
+		
+
+		
 	public static void main(String[] args) {
 		
 		File map = new File("easy_map_1");
@@ -27,9 +31,9 @@ public class Journey {
 				String word = s.next();
 				for (int j = 0; j < values[0].length; j++) { 
 					values[i][j] = word.substring(j,j+1);
-					System.out.print(values[i][j]);
+					//System.out.print(values[i][j]);
 				}
-				System.out.println();
+				//System.out.println();
 
 			}
 			
@@ -40,8 +44,22 @@ public class Journey {
 			Queue<Integer> traveledColumns = new LinkedList<Integer>();
 			Queue<String> traveledValues = new LinkedList<String>();
 			
+			boolean win = false;				
+				for (int i = 0; i < values.length; i++) {
+					for(int j = 0; j < values[0].length; j++) {
+						if (values[i][j].equals("W")) {
+							int wolverineX = i;
+							int wolverineY = j;
+							System.out.println(wolverineX + " " + wolverineY);						
+						}
+							
+					}
+				}
+				
+				
+				
 			
-		
+			
 			
 		
 		
