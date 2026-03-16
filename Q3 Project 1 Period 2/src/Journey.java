@@ -52,7 +52,7 @@ public class Journey {
 							int wolverineY = j;
 							System.out.println(wolverineX + " " + wolverineY);						
 						}
-							
+							 
 					}
 				}
 				
