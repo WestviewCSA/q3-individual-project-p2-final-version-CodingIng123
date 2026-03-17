@@ -43,19 +43,23 @@ public class Journey {
 			Queue<Integer> traveledRows = new LinkedList<Integer>();
 			Queue<Integer> traveledColumns = new LinkedList<Integer>();
 			Queue<String> traveledValues = new LinkedList<String>();
-			
-			boolean win = false;				
-				for (int i = 0; i < values.length; i++) {
-					for(int j = 0; j < values[0].length; j++) {
-						if (values[i][j].equals("W")) {
-							int wolverineX = i;
-							int wolverineY = j;
-							System.out.println(wolverineX + " " + wolverineY);						
-						}
-							 
-					}
+							
+			for (int i = 0; i < values.length; i++) {
+				for(int j = 0; j < values[0].length; j++) {
+					if (values[i][j].equals("W")) {
+						int wolverineX = i;
+						int wolverineY = j;
+						
+						//System.out.println(wolverineX + " " + wolverineY);
+						//i need to write code here to add tiles into each queue that needs to be checked						
+						
+						
+						break;
+					}  
 				}
-				
+			}
+			
+			
 				
 				
 			
